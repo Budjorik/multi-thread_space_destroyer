@@ -7,8 +7,8 @@ import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 public class ClientOne {
-    private static final int SIZE_OF_INPUT_BUFFER = 11;
-    private static final int WAITING_TIME_IN_SECONDS = 5;
+    private static final int SIZE_OF_INPUT_BUFFER = 11; // Задаем размер буфера
+    private static final int WAITING_TIME_IN_SECONDS = 5; // Задаем время ожидания
     private static final String HOST = "netology.homework"; // Задаем хост для подключения к серверу
     private static final int PORT = 8088; // Задаем номер порта для подключения к серверу
 

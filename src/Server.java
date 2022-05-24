@@ -6,7 +6,7 @@ import java.nio.channels.SocketChannel;
 import java.nio.charset.StandardCharsets;
 
 public class Server {
-    private static final int SIZE_OF_INPUT_BUFFER = 11;
+    private static final int SIZE_OF_INPUT_BUFFER = 11; // Задаем размер буфера
     private static final String HOST = "netology.homework"; // Задаем хост сервера для подключения клиентов
     private static final int PORT = 8088; // Задаем номер порта сервера для подключения клиентов
 
